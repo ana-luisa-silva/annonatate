@@ -1,0 +1,34 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Novo teste de anota\u00e7\u00f5es GitHub",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ana-luisa-silva",
+                "name": "ana-luisa-silva"
+            },
+            "created": "2022-01-04T00:39:04.333Z",
+            "modified": "2022-01-04T00:39:16.956Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:49576.71484375,92.49015045166016,882.40234375,845.2477645874023"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f88ac77d-d1ea-4f05-9b46-0ebf942d1406.json"
+}
